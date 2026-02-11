@@ -1,5 +1,5 @@
-import "@/app/globals.css";
-import "@/app/colors.css";
+import "@/globals.css";
+import "@/colors.css";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 

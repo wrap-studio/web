@@ -1,6 +1,13 @@
 :root {
     --background: var(--color-neutral-950);
     --background-dots: var(--color-neutral-900);
+    --card: var(--color-neutral-900);
+    --card-border: var(--color-neutral-800);
+    --surface: var(--color-neutral-800);
+    --surface-border: var(--color-neutral-700);
+    --text: var(--color-neutral-300);
+    --text-secondary: var(--color-neutral-500);
+    --icon: var(--color-neutral-300);
 }
 
 * {
@@ -16,6 +23,16 @@ body {
     background-color: var(--background);
     position: relative;
     overflow-x: hidden;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: inherit;
+    font-size: inherit;
 }
 
 .root {
