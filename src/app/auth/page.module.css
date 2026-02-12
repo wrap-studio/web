@@ -53,8 +53,69 @@
     user-select: none;
 }
 
+.error {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    user-select: none;
+}
+
 .icon {
     width: 24px;
     height: auto;
     stroke-width: 2;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 16px;
+    background-color: var(--surface);
+    border: none;
+    outline: none;
+
+    font-size: 1rem;
+    color: var(--text);
+    text-align: center;
+
+    transition:
+        background-color 0.2s,
+        transform 0.1s;
+}
+
+.button[data-invalid] {
+    animation: shake 0.2s ease-in-out;
+}
+
+.button svg {
+    width: 20px;
+    height: 20px;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-8px);
+    }
+    75% {
+        transform: translateX(8px);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader {
+    animation: spin 1s linear infinite;
 }
