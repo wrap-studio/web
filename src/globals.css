@@ -7,7 +7,6 @@
     --surface-border: var(--color-neutral-700);
     --text: var(--color-neutral-300);
     --text-secondary: var(--color-neutral-500);
-    --icon: var(--color-neutral-300);
 }
 
 * {
