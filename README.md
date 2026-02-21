@@ -1,3 +1,3 @@
-# wrap-studio
+# Wrap Studio
 
 coming soon...
