@@ -1,3 +1,5 @@
+.PHONY: default dev build start
+
 default: dev
 
 dev:
